@@ -13,4 +13,5 @@ document.getElementById('monFormulaire').addEventListener('submit', function (e)
 
     // Ouverture du client mail
     window.location.href = `mailto:${destination}?subject=${sujet}&body=${corps}`;
+
 });

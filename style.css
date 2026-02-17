@@ -458,6 +458,7 @@ footer {
     color: #1a2e2a;
     border: none;
     padding: 18px 40px;
+    text-decoration: none;
     /* Bouton plus grand */
     border-radius: 12px;
     font-weight: 700;
