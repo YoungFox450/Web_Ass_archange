@@ -44,6 +44,13 @@ header {
     /* Suppression du width: 100% ici, sinon il prend toute la place du header */
 }
 
+.logo_a a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .nav-bar {
     display: flex;
     gap: 20px;
@@ -324,18 +331,6 @@ footer {
     z-index: 2;
 }
 
-/* Ajustement du bouton vert */
-.btn-green {
-    background-color: #7dff96;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-family: Pacifico, cursive;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-
 /*fin*/
 /* --- Configuration de la Section --- */
 .consulting-section {
@@ -464,6 +459,25 @@ footer {
 
 /* --- Bouton About Me --- */
 .btn-about {
+    background-color: #7dff96;
+    /* Vert clair vif */
+    color: #1a2e2a;
+    border: none;
+    padding: 18px 40px;
+    text-decoration: none;
+    /* Bouton plus grand */
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Transition fluide pour le survol */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-about_a {
+    position: relative;
+    top: 25px;
     background-color: #7dff96;
     /* Vert clair vif */
     color: #1a2e2a;
