@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="sel">
+
+    <header>
+        <div class="logo">
+            <h2>Odrey</h2>
+        </div>
+
+        <div class="nav-bar">
+            <a href="index.html">Acceuille</a>
+            <a href="qui_somme_nous.html">A propos</a>
+            <a href="galerie.html">Galeries</a>
+            <a href="nous_ecrire.html" class="active">Contact</a>
+        </div>
+    </header>
+
+
+    <div class="contact-section">
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h2>Nos coordonnées</h2>
+
+                <div class="info-group">
+                    <span class="label">Email:</span>
+                    <a href="mailto:Moneta@gmail.com" class="value">odreymvula05@gmail.com</a>
+                </div>
+
+                <div class="info-group">
+                    <span class="label">Phone:</span>
+                    <a href="tel:+17631683" class="value">+243971749853</a>
+                </div>
+
+                <div class="info-group">
+                    <span class="label">Address:</span>
+                    <p class="value">
+                        123 Innovation Avenue, Suite 456<br>
+                        Tech District, San Francisco, CA 94107<br>
+                        RDcongo
+                    </p>
+                </div>
+
+                <!--
+                <div class="social-icons">
+                    <span class="label" style="display:block; margin-bottom:15px;">Follow us</span>
+                    <div class="icons-row">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                -->
+            </div>
+
+            <form class="contact-form" id="monFormulaire">
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Votre nom</label>
+                        <input type="text" id="nom" placeholder="Votre nom complet" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Adress mail</label>
+                        <input type="email" id="email" placeholder="Votre adresse email" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Message</label>
+                    <textarea id="message" placeholder="Ecrivez nous..." required></textarea>
+                </div>
+
+                <button type="submit">Envoi Message</button>
+            </form>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Copyright &copy; 2026 Odrey. Tous droits reserver batard.</p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
