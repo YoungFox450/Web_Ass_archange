@@ -308,6 +308,10 @@ footer {
     justify-content: space-between;
 }
 
+.service-card p {
+    font-family: "Poppins", sans-serif;
+}
+
 /* Carte sombre */
 .service-card.dark {
     background-color: #1a2e2a;
@@ -320,15 +324,6 @@ footer {
     z-index: 2;
 }
 
-/* Style pour les liens "Read more" */
-.service-card a {
-    margin-top: 20px;
-    text-decoration: none;
-    color: inherit;
-    font-weight: 500;
-    font-size: 0.9rem;
-}
-
 /* Ajustement du bouton vert */
 .btn-green {
     background-color: #7dff96;
@@ -336,6 +331,8 @@ footer {
     padding: 12px 25px;
     border-radius: 8px;
     font-weight: bold;
+    font-family: Pacifico, cursive;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -449,6 +446,20 @@ footer {
     font-size: 1.2rem;
     color: #1a2e2a;
     /* Couleur des icônes */
+}
+
+#qui {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    /*border: 2px solid blue;*/
+    width: 510px;
+    position: relative;
+    top: 40px;
+    left: 40rem;
+    color: #1a2e2a;
+    /* Vert très sombre pour le titre */
 }
 
 /* --- Bouton About Me --- */
